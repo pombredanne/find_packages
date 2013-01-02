@@ -1,4 +1,7 @@
-#!/usr/bin/python2
+#!/usr/bin/env python2
+# Note:  This script is more of a proof of concept to check versions
+# These functions are here for testing and refinement before being integrated into a more complete application
+
 import sys
 import xmlrpclib
 import pprint
