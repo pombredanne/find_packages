@@ -24,15 +24,15 @@ Right now this is a functional proof-of-concept and will be expanded in the futu
 * Currently this only runs on POSIX compliant systems and even then only if the "locate" command is present.  This will change in the future, so it can be more flexible for operating system and will not depend on 'locate'
 * Determining wordpress slugs for plugin names is currently inconsistent - As is wordpress (grrr)
 * Do not currently look up npm packages for current versions
-* Need to clean check_versions.sh  a little more.
+* Need to clean check_versions.py  a little more.
 
 ## The scripts
 
-### find_packages.sh
+### find_packages.py
 
 This returns tab-delimtied output featuring all the packages it could find and their current version
 
-### check_versions.sh
+### check_versions.py
 
 This script is an interim script to do version lookups until I integrate into a larger application (such as Minion).
 
